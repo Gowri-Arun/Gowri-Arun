@@ -1,44 +1,35 @@
 ```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                              ░▒▓█ GOWRI ARUN █▓▒░                           │
-│                        Applied AI & Full-Stack Developer                     │
-└──────────────────────────────────────────────────────────────────────────────┘
+                 ██████╗  ██████╗ ██╗    ██╗██████╗ ██╗
+                ██╔════╝ ██╔═══██╗██║    ██║██╔══██╗██║
+                ██║  ███╗██║   ██║██║ █╗ ██║██████╔╝██║
+                ██║   ██║██║   ██║██║███╗██║██╔══██╗██║
+                ╚██████╔╝╚██████╔╝╚███╔███╔╝██║  ██║██║
+                 ╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝
+
+                    █████╗ ██████╗ ██╗   ██╗███╗   ██╗
+                   ██╔══██╗██╔══██╗██║   ██║████╗  ██║
+                   ███████║██████╔╝██║   ██║██╔██╗ ██║
+                   ██╔══██║██╔══██╗██║   ██║██║╚██╗██║
+                   ██║  ██║██║  ██║╚██████╔╝██║ ╚████║
+                   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 ```
 
-<table>
-  <tr>
-    <td rowspan="2"><img src="./assets/ascii_readme.png" width="170" alt="Gowri Arun" /></td>
-    <td width="100%"><h1>Hey, I'm <a href="https://github.com/Gowri-Arun">Gowri Arun</a> 🩵</h1></td>
-  </tr>
-  <tr>
-    <td><code>Applied AI & Full-Stack Developer</code> — building practical AI systems, research-oriented ML workflows, and full-stack products.</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/ascii_readme.png" width="180" alt="Gowri Arun" />
+</p>
 
-```
-┌─[ gowri@github ]─────────────────────────────────────────────────────────────┐
-│                                                                              │
-│  STATUS REPORT                                                               │
-│                                                                              │
-│  CURRENT PROJECTS                                                            │
-│                                                                              │
-│  Veridian AI     ████████████████████████████████░░░░░░░░░░░░░░░░  65%       │
-│  ST-HF VVI-ReID  ████████████████████████████████████████████░░░░  85%       │
-│  ToN-IoT IDS     ████████████████████████████████████████████████  95%       │
-│                                                                              │
-│  RECOGNITION                                                                 │
-│                                                                              │
-│  Girlathon 2025              First Runner-Up  ─  Vanta AI                   │
-│  Bharatiya Antariksh Hack    Selected Team    ─  Astra-Q                    │
-│                                                                              │
-│  DAILY DRIVERS                                                              │
-│                                                                              │
-│  AI/ML    : PyTorch  TensorFlow  scikit-learn  LangChain  FAISS             │
-│  Backend  : Python   FastAPI     Node.js        DuckDB     Neo4j            │
-│  Frontend : React    TypeScript  Streamlit      Vite                        │
-│  Ops      : Docker   Git         Makefile       pytest                      │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+```yaml
+$ whoami
+Gowri Arun
+
+$ cat /etc/motd
+Applied AI & Full-Stack Developer
+
+$ ./status.sh
+  Building practical AI systems  ████████████░░░░░░  75%
+  Research ML pipelines          ██████████████░░░  85%
+  Full-stack products            ██████████░░░░░░░  60%
+  Cybersecurity research          ████████████░░░░  80%
 ```
 
 <p align="center">
@@ -53,7 +44,7 @@
 ---
 
 <p align="center">
-  <b>⚡ PROJECTS ⚡</b>
+  <b>⚡ BUILDING ⚡</b>
 </p>
 
 | Project | Description | Stack |
@@ -67,7 +58,7 @@
 ---
 
 <p align="center">
-  <b>🧰 TECH STACK 🧰</b>
+  <b>🧰 ARMORY 🧰</b>
 </p>
 
 <p align="center">
@@ -78,7 +69,17 @@
 ---
 
 <p align="center">
-  <b>🌐 CONNECT 🌐</b>
+  <b>🚀 CURRENT MISSION 🚀</b>
+</p>
+
+- Building **Veridian AI** — evaluation-driven enterprise query engine
+- Reproducing **ST-HF** for video visible-infrared person re-identification
+- Rare-class intrusion detection research on IoT network traffic
+
+---
+
+<p align="center">
+  <b>📡 CONTACT 📡</b>
 </p>
 
 <p align="center">
