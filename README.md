@@ -1,93 +1,145 @@
-```
-                 ██████╗  ██████╗ ██╗    ██╗██████╗ ██╗
-                ██╔════╝ ██╔═══██╗██║    ██║██╔══██╗██║
-                ██║  ███╗██║   ██║██║ █╗ ██║██████╔╝██║
-                ██║   ██║██║   ██║██║███╗██║██╔══██╗██║
-                ╚██████╔╝╚██████╔╝╚███╔███╔╝██║  ██║██║
-                 ╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝
+<div align="center">
 
-                    █████╗ ██████╗ ██╗   ██╗███╗   ██╗
-                   ██╔══██╗██╔══██╗██║   ██║████╗  ██║
-                   ███████║██████╔╝██║   ██║██╔██╗ ██║
-                   ██╔══██║██╔══██╗██║   ██║██║╚██╗██║
-                   ██║  ██║██║  ██║╚██████╔╝██║ ╚████║
-                   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+# GOWRI
+
+```txt
+> boot gowri.profile
+> mounting: applied-ai, research-ml, full-stack-systems
+> uplink: stable
+> status: online
 ```
 
-<p align="center">
-  <img src="./assets/ascii_readme.png" width="180" alt="Gowri Arun" />
-</p>
+[Portfolio](https://gowri-arun-portfolio.vercel.app/) ·
+[LinkedIn](https://www.linkedin.com/in/gowri-arun-/) ·
+[Email](mailto:gowriarun2006@gmail.com)
+
+</div>
+
+---
+
+## `/usr/gowri/profile.json`
+
+```json
+{
+  "name": "Gowri Arun",
+  "role": "Applied AI & Full-Stack Developer",
+  "base_class": "builder-researcher",
+  "spawn_point": "somewhere between a Kaggle notebook and production",
+  "special_moves": [
+    "ship AI systems with real evaluation loops",
+    "make ML pipelines survive messy data",
+    "build full-stack products that do useful work",
+    "connect research ideas to usable software"
+  ],
+  "current_party": ["RAG", "FastAPI", "PyTorch", "React", "DuckDB", "Neo4j"],
+  "alignment": "chaotic useful"
+}
+```
+
+## `mission_board.md`
+
+| Case ID | Operation | Field Notes | Status |
+|:---|:---|:---|:---|
+| [`VERIDIAN-01`](https://github.com/Gowri-Arun/veridianAI_v2) | Enterprise query engine | Ambiguous business questions -> grounded analytical answers | `NEXT` |
+| [`TON-IOT-IDS`](https://github.com/Gowri-Arun/ToN-IoT-rareclass-IDS) | Rare-class intrusion detection | MITM attack detection on imbalanced IoT network traffic | `RESEARCH` |
+| [`ASTRA-Q`](https://github.com/Gowri-Arun/Astra_Q_Backend_fork) | Space-data help bot | KG + RAG assistant for ISRO MOSDAC workflows | `DEPLOYED` |
+| [`ST-HF`](https://github.com/Gowri-Arun/ST-HF-VVI-ReID) | Re-identification study | Video visible-infrared person ReID work | `ACTIVE` |
+| [`VANTA-AI`](https://github.com/AnitaGeorge404/VantaAI) | Deepfake detection platform | Digital safety product, Girlathon 2025 Runner-Up | `AWARDED` |
+
+## `choose_your_build`
+
+```txt
+┌─────────────────────┬──────────────────────────────────────────────────────┬────────────┐
+│ enterprise-ai        │ query engines, RAG systems, grounded analytics       │ systems    │
+│ security-ml          │ rare attacks, class imbalance, detection pipelines   │ research   │
+│ cv-research          │ representation learning, visible-infrared ReID       │ vision     │
+│ full-stack-products  │ React fronts, FastAPI cores, usable AI workflows     │ product    │
+└─────────────────────┴──────────────────────────────────────────────────────┴────────────┘
+```
+
+## `skill_tree.yml`
 
 ```yaml
-$ whoami
-Gowri Arun
+applied_ai:
+  unlocked:
+    - retrieval_augmented_generation
+    - evaluation_driven_development
+    - knowledge_graphs
+    - vector_search
+  tools:
+    - LangChain
+    - FAISS
+    - Gemini
+    - DuckDB
+    - Neo4j
 
-$ cat /etc/motd
-Applied AI & Full-Stack Developer
+machine_learning:
+  unlocked:
+    - rare_class_detection
+    - computer_vision
+    - re_identification
+    - intrusion_detection_systems
+  tools:
+    - PyTorch
+    - TensorFlow
+    - scikit-learn
+    - LightGBM
+    - XGBoost
 
-$ ./status.sh
-  Building practical AI systems  ████████████░░░░░░  75%
-  Research ML pipelines          ██████████████░░░  85%
-  Full-stack products            ██████████░░░░░░░  60%
-  Cybersecurity research          ████████████░░░░  80%
+product_engineering:
+  unlocked:
+    - api_design
+    - frontend_systems
+    - data_backends
+    - deployment_workflows
+  tools:
+    - Python
+    - FastAPI
+    - React
+    - TypeScript
+    - Node.js
+    - Docker
 ```
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Gowri-Arun&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" height="165">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Gowri-Arun&theme=radical&hide_border=true" height="165">
-</p>
+## `quest_log.txt`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowri-Arun&layout=compact&theme=radical&hide_border=true&langs_count=8">
-</p>
+```txt
+[now]       ST-HF for video visible-infrared person re-identification.
+[next]      Building Veridian AI into an evaluation-driven enterprise query engine.
+[sidequest] Rare-class IDS experiments, because the small classes cause big trouble.
+[always]    Making ML systems measurable, useful, and harder to fool.
+```
 
----
+## `system_telemetry`
 
-<p align="center">
-  <b>⚡ BUILDING ⚡</b>
-</p>
+<div align="center">
 
-| Project | Description | Stack |
-|:---|---|---|
-| [**Veridian AI**](https://github.com/Gowri-Arun/veridianAI_v2) | Enterprise query engine — ambiguous questions → grounded analytical answers | Python, FastAPI, DuckDB, RAG |
-| [**ToN-IoT IDS**](https://github.com/Gowri-Arun/ToN-IoT-rareclass-IDS) | Rare-class MITM attack detection on IoT networks | LightGBM, KMeansSMOTE, XGBoost |
-| [**Astra-Q**](https://github.com/Gowri-Arun/Astra_Q_Backend_fork) | KG + RAG help bot for ISRO's MOSDAC | Neo4j, LangChain, FAISS, Gemini |
-| [**ST-HF VVI-ReID**](https://github.com/Gowri-Arun/ST-HF-VVI-ReID) | Video visible-infrared person re-identification | PyTorch, ResNet-50 |
-| [**Vanta AI**](https://github.com/AnitaGeorge404/VantaAI) | Deepfake detection platform · Girlathon 2025 Runner-Up | React, Node.js, FastAPI |
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gowri-Arun&bg_color=0d1117&color=ff4fd8&line=00e5ff&point=f97316&area=true&hide_border=true" width="100%" alt="GitHub activity graph" />
 
----
+</div>
 
-<p align="center">
-  <b>🧰 ARMORY 🧰</b>
-</p>
+## `engineering_notes.log`
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,flask,nodejs,express,react,ts,js,html,css,vite,docker,git,github,bash" /><br/>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,mysql,postgres,redis,graphql,nginx,linux" />
-</p>
+```txt
+AI SYSTEMS       "Can the answer be grounded and evaluated?"
+BACKEND          "Can the system survive real inputs?"
+RESEARCH         "Can we measure the claim?"
+FRONTEND         "Can someone actually use this?"
+SECURITY         "What happens when the data gets noisy?"
+
+"Ship the experiment. Test the story. Improve the system."
+```
 
 ---
 
-<p align="center">
-  <b>🚀 CURRENT MISSION 🚀</b>
-</p>
+<div align="center">
 
-- Building **Veridian AI** — evaluation-driven enterprise query engine
-- Reproducing **ST-HF** for video visible-infrared person re-identification
-- Rare-class intrusion detection research on IoT network traffic
+### `contribution_crawler --dark-mode`
 
----
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution snake" />
 
-<p align="center">
-  <b>📡 CONTACT 📡</b>
-</p>
+```txt
+end of transmission
+```
 
-<p align="center">
-  <a href="https://gowri-arun-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-FF7139?style=for-the-badge&logo=Firefox&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/gowri-arun-/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:gowriarun2006@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%">
-</p>
+</div>
