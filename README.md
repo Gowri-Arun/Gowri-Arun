@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Gowri Arun</h1>
+<h1 align="center">Hi, I'm Gowri Arun👋🏽</h1>
 
 <p align="center">
   <b>Applied AI & Full-Stack Developer</b>
@@ -22,7 +22,7 @@
 
 ### About Me
 
-I'm interested in building AI that is not just impressive in a demo, but measurable, grounded, and useful in real workflows. I like working across the stack: shaping ML experiments, designing APIs, building product interfaces, and making sure the system actually survives real inputs.
+I'm interested in building AI that is not just impressive but measurable, grounded, and useful in real workflows. I like working across the stack: shaping ML experiments, designing APIs, building product interfaces, and making sure the system actually survives real inputs.
 
 Currently, I'm focused on **ST-HF for video visible-infrared person re-identification**. Next, I'm continuing work on **Veridian AI**, an evaluation-driven enterprise query engine for grounded analytical answers.
 
@@ -54,8 +54,6 @@ Currently, I'm focused on **ST-HF for video visible-infrared person re-identific
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/LightGBM-111827?style=for-the-badge&logoColor=white" alt="LightGBM" />
-  <img src="https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logoColor=white" alt="XGBoost" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain" />
   <img src="https://img.shields.io/badge/FAISS-111827?style=for-the-badge&logo=meta&logoColor=white" alt="FAISS" />
   <img src="https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black" alt="DuckDB" />
