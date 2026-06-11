@@ -75,6 +75,19 @@ Currently, I'm focused on **ST-HF for video visible-infrared person re-identific
 
 ---
 
+### 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Gowri-Arun&show_icons=true&theme=dark&card_width=500&hide_border=true" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gowri-Arun&layout=compact&theme=dark&card_width=500&hide_border=true" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Gowri-Arun&theme=dark&hide_border=true" alt="Stats" />
+</p>
+
+---
+
 ### GitHub Activity
 
 <p align="center">
