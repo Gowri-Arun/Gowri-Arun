@@ -1,15 +1,11 @@
 <h1 align="center">Hi, I'm Gowri Arun 👋🏽</h1>
 
 <p align="center">
-  <b>Applied AI · Machine Learning · Full-Stack Systems</b>
+  <b>Computer Science @ IIIT Kottayam · AI/ML · Software Engineering</b>
 </p>
 
 <p align="center">
-  I build intelligent systems across adaptive AI, cybersecurity, computer vision, and retrieval - from experiments and evaluation pipelines to backend infrastructure and usable products.
-</p>
-
-<p align="center">
-  <i>build the system. test the assumption. measure what actually works.</i>
+  I like working on problems where there is something interesting to figure out -  not just another interface to build or model to fine-tune.
 </p>
 
 <p align="center">
@@ -28,38 +24,40 @@
 
 ## 👩🏽‍💻 About Me
 
-Third-year Computer Science atudent at **IIIT Kottayam**, interested in building AI systems that are not just impressive in a demo, but **measurable, reproducible, and useful in real workflows**.
+I'm a third-year Computer Science student at **IIIT Kottayam**.
 
-My work currently spans **adaptive AI, network-security ML, computer vision research, retrieval systems, and full-stack engineering**.
+Most of what I build falls somewhere between **ML research and software engineering**. I've worked on adaptive systems that learn from user behaviour, passive network threat detection, visible–infrared person re-identification, knowledge graphs + RAG, and a slightly unreasonable number of ML experiments.
 
-* 🔬 Interested in **applied ML research and rigorous evaluation**
-* 🧠 Building **adaptive systems that evolve with the user**
-* 🛡️ Exploring **ML for network security and passive threat detection**
-* 👁️ Working on **cross-modal computer vision and person re-identification**
-* ⚙️ Comfortable moving across **ML pipelines, APIs, databases, and frontend systems**
-* 🤝 Open to **research collaborations, internships, and interesting engineering problems**
+I enjoy the parts of a project where things are still uncertain: figuring out what to measure, designing an experiment, tracing why a model behaves differently, or turning something that works in a notebook into an actual system.
+
+These days, that usually means some combination of **Python, PyTorch, FastAPI, React, databases, Docker, and many terminal tabs**.
 
 ---
 
 ## 🚀 Selected Projects
 
+| Project                | What I worked on                                                                                                                                                       | Link                                                              |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 🧠 **NeuroBridge**     | Built the **support + learning layer** behind its adaptive loop — persistence, reflection/memory, outcome tracking, and user-specific adaptation across support tools. | [Repository](https://github.com/Civora-Forge/NeuroBridge)         |
+| 🛰️ **Astra-Q**        | Worked on the **backend retrieval architecture**, combining Neo4j knowledge graphs with RAG and vector search to ground queries over ISRO MOSDAC workflows.            | [Repository](https://github.com/Gowri-Arun/Astra_Q_Backend_fork)  |
+| 🛡️ **Aegis**          | Building the **traffic → features** side of passive threat detection: attack simulation and behavioural feature engineering for ML over mirrored network traffic.      | Private repository                                                |
+| 🛡️ **Vanta AI**       | Built the **deepfake detection pipeline end-to-end** — React image handling → FastAPI → SigLIP/PyTorch inference → confidence results.                                 | [Repository](https://github.com/AnitaGeorge404/VantaAI)           |
+| 👁️ **ST-HF VVI-ReID** | Researching **visible ↔ infrared person Re-ID**, working on cross-modal representations and evaluating retrieval with mAP and Rank-1.                                  | [Repository](https://github.com/Gowri-Arun/ST-HF-VVI-ReID)        |
+| 🔬 **ToN-IoT IDS**     | Explored **rare-class intrusion detection** under severe class imbalance, using imbalance-aware sampling and ML to improve minority-attack detection.                  | [Repository](https://github.com/Gowri-Arun/ToN-IoT-rareclass-IDS) |
+
 ### 🧠 NeuroBridge — Adaptive Neuro-Inclusive Support Platform
 
-Neuro-inclusive support platform designed to provide **personalized tools for different cognitive and learning needs**.
+NeuroBridge started from a fairly simple question: **can a support system actually learn what works for an individual instead of repeatedly giving everyone the same advice?**
 
-My work focuses on the system's **support and learning layer** — building adaptive support modules, capturing intervention outcomes, maintaining reflection and memory, and using accumulated evidence to personalize future recommendations.
+I worked on the **support and learning layer** of the system — recording intervention outcomes, reflection and memory, persisting evidence, and feeding that history back into future adaptations.
 
-The adaptive loop follows:
+For example, Focus Sessions can learn which session lengths actually work better for a user, while Task Breakdown can adapt the size of future plans from previous completion behaviour. The important part for me was making that a real closed loop rather than a hardcoded recommendation disguised as personalization.
 
 ```text
 Context → Support → Observe → Learn → Adapt
 ```
 
-Built persistence and learning workflows around support tools such as **Task Breakdown** and **Focus Sessions**, allowing recommendations to evolve from actual user outcomes while preserving user control.
-
-
 🏆 **Runner-Up — Girlathon 2026**
-
 
 `React` `Supabase` `PostgreSQL` `Adaptive Systems` `RLS` `Testing`
 
@@ -67,11 +65,11 @@ Built persistence and learning workflows around support tools such as **Task Bre
 
 ### 🛰️ Astra-Q — Knowledge Graph + RAG Assistant
 
-Knowledge-grounded assistant built around **ISRO MOSDAC workflows**, combining retrieval-augmented generation with structured knowledge representation.
+Astra-Q explores using **knowledge graphs + retrieval** to make scientific-data discovery less painful across **ISRO MOSDAC workflows**.
 
-Uses **Neo4j knowledge graphs and vector retrieval** to connect natural-language questions with relevant scientific information and workflows.
+I worked across the backend retrieval pipeline, using **Neo4j/Cypher for structured relationships** and **FAISS + LangChain + Gemini** for retrieval and generation.
 
-Worked across the backend AI pipeline, retrieval architecture, and integration of multiple knowledge sources into grounded responses.
+What interested me here was grounding the answer in both structured relationships and retrieved context rather than treating RAG as simply “put documents in a vector database and ask an LLM.”
 
 `Python` `Neo4j` `Cypher` `LangChain` `FAISS` `Gemini` `RAG`
 
@@ -79,53 +77,55 @@ Worked across the backend AI pipeline, retrieval architecture, and integration o
 
 ### 🛡️ Aegis — Passive AI/ML Network Threat Detection
 
-Passive network-security system for detecting suspicious behaviour from **mirrored network traffic without active probing**.
+Aegis is a network-security system built around a constraint I found particularly interesting: **detect threats without actively interacting with the network at all**.
 
-Built traffic-generation and feature-engineering components for attacks including **SYN floods, UDP floods, port scans, and DNS-based threats**, alongside behavioural features such as traffic rates, fan-in/fan-out, entropy, inter-arrival statistics, connection frequency, and periodicity.
+The system works from mirrored traffic. My part has involved generating attack traffic and building the feature-engineering pipeline that converts raw network behaviour into useful ML signals.
 
-The wider pipeline turns passive network telemetry into features suitable for **near-real-time ML-based detection and explainable threat analysis**.
+That includes SYN/UDP floods, port scans and DNS-based threats, along with features such as traffic rates, fan-in/fan-out, entropy, inter-arrival statistics, connection frequency and periodicity.
 
 ```text
-Traffic → Passive Capture → Features → ML → Threat Intelligence
+Mirrored Traffic → Behavioural Features → ML → Threat Analysis
 ```
 
-`Python` `Zeek` `Kafka` `Docker` `Network Security` `Feature Engineering` `ML`
+`Python` `Zeek` `Kafka` `Docker` `Network Security` `Feature Engineering`
 
 ---
 
-### 🛡️ Vanta AI — Digital Safety Platform For Women
+### 🛡️ Vanta AI — Digital Safety Platform for Women
 
-Digital-safety platform addressing image-based abuse through detection, guidance, reporting, and support tools.
+Vanta was one of the first projects where I built an ML feature **all the way from the UI to inference**.
 
-I built the image deepfake-classification prototype end-to-end, connecting a React drag-and-drop upload interface to a FastAPI backend that preprocesses images, runs Hugging Face SigLIP inference with PyTorch, applies softmax confidence scoring, and returns classification results to the frontend.
+I built the image deepfake-classification prototype: React handles image selection, previews and multipart upload; a FastAPI service preprocesses the image and runs a **Hugging Face SigLIP classifier through PyTorch**; the prediction and confidence score then flow back into the interface.
+
+I also built the project's browser-based legal Q&A interface and FIR draft-generation workflow.
 
 🏆 **Runner-Up — Girlathon 2025**
 
-`React` `FastAPI` `PyTorch` `Hugging Face Transformers` `SigLIP` `Pillow` `Fetch API`
+`React` `FastAPI` `PyTorch` `Hugging Face Transformers` `SigLIP` `Pillow`
 
 ---
 
 ### 👁️ ST-HF VVI-ReID — Visible–Infrared Person Re-Identification
 
-Research project exploring **video-based visible–infrared person re-identification**, where the same person must be matched across cameras operating in different visual modalities.
+This is my current computer-vision research work around a problem that sounds simple until you look at the images: **matching the same person between visible and infrared cameras**.
 
-Working on cross-modal representation learning and evaluating retrieval performance using standard ReID metrics including **mAP and Rank-1 accuracy**.
+Because colour and appearance cues change dramatically across modalities, the interesting part is learning representations that preserve identity despite that shift.
 
-The broader goal is to improve identity retrieval when appearance changes substantially between visible and infrared imagery.
+I'm working on **video-based visible–infrared ReID** and evaluating retrieval using standard metrics such as **mAP and Rank-1**.
 
 `PyTorch` `ResNet-50` `Computer Vision` `Deep Learning` `Person Re-ID`
 
 ---
 
-### 🔬 ToN-IoT / IDS — Rare-Class Intrusion Detection
+### 🔬 ToN-IoT IDS — Rare-Class Intrusion Detection
 
-Research-oriented intrusion-detection work focused on **imbalanced and rare attack classes** in large network-security datasets.
+This project is where I became particularly interested in the fact that **accuracy can tell a very misleading story in cybersecurity ML**.
 
-Experimented with preprocessing, feature selection, dimensionality reduction, imbalance handling, and multiple classical and deep-learning architectures.
+The problem was rare attack detection in heavily imbalanced IoT traffic: a model can perform extremely well overall while doing badly on exactly the attacks we care about.
 
-The work extends beyond model training into **controlled ablation studies and leakage-aware evaluation**, asking how preprocessing choices such as feature selection, PCA, and sampling actually affect downstream performance.
+I experimented with imbalance-aware approaches including **KMeansSMOTE, LightGBM and XGBoost**, focusing on improving minority-attack detection rather than optimizing headline accuracy alone.
 
-`PyTorch` `XGBoost` `LightGBM` `scikit-learn` `KMeansSMOTE` `PCA` `Feature Selection`
+`LightGBM` `XGBoost` `KMeansSMOTE` `scikit-learn` `Cybersecurity ML`
 
 ---
 
@@ -176,15 +176,13 @@ The work extends beyond model training into **controlled ablation studies and le
 
 ---
 
-## 🔭 Current Focus
+## 🔭 What I'm Exploring Now
 
-Right now, I'm especially interested in:
+Right now I'm spending most of my time around **adaptive AI, cybersecurity ML and computer vision**.
 
-* **Adaptive AI** — outcome-driven personalization and systems that improve from interaction history
-* **Experimental ML** — controlled experimentation, ablation studies, robust validation, and reproducible model development
-* **Cybersecurity ML** — passive traffic analysis, behavioural modelling, rare-class detection, and explainability
-* **Computer Vision** — cross-modal representation learning and person re-identification
-* **AI Systems Engineering** — production-oriented ML pipelines, retrieval infrastructure, APIs, persistence, and deployment
+I'm especially interested in systems that have some feedback loop or difficult evaluation problem hiding underneath them — personalization from actual outcomes, learning under extreme class imbalance, passive behavioural modelling, cross-modal retrieval, or figuring out whether an apparent ML improvement survives a proper experiment.
+
+On the engineering side, I want to get better at taking these ideas beyond experiments: **cleaner architectures, stronger backends, real deployment, and systems people can actually use**.
 
 ---
 
@@ -224,10 +222,6 @@ Right now, I'm especially interested in:
   <a href="mailto:gowriarun2006@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
-</p>
-
-<p align="center">
-  <i>Always interested in good research questions, ambitious builds, and systems worth measuring.</i>
 </p>
 
 <p align="center">
